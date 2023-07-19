@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pomodoro/Cronometro.dart';
+import 'package:pomodoro/components/Cronometro.dart';
 import '../components/EntradaTempo.dart';
 
 class Pomodoro extends StatelessWidget {
