@@ -18,12 +18,8 @@ class MyApp extends StatelessWidget {
           create: (_) => PomodoroStore(),
         )
       ],
-      child: MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: const Pomodoro(),
+      child: const MaterialApp(
+        home: Pomodoro(),
       ),
     );
   }
